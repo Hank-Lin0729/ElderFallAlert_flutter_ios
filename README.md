@@ -17,7 +17,7 @@
 
 ### 技術棧
 - **前端框架**: Flutter
-- **後端 API**: Flask 應用程式（[長者即時照護系統](elder_care_readme)）
+- **後端 API**: Flask 應用程式（[長者即時照護系統](https://github.com/Hank-Lin0729/ElderFallAlert_web/blob/main/README.md))
 - **資料庫**: Render PostgreSQL（後端管理）
 
 ## 功能描述
