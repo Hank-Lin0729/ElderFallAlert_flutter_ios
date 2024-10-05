@@ -1,0 +1,58 @@
+name: elder_care_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 降級 http_parser 版本以避免衝突
+  http_parser: ^4.0.2
+
+  # 更新 shared_preferences
+  shared_preferences: ^2.1.0
+
+  # 其他相依套件
+  provider: ^6.0.4
+  flutter_local_notifications: ^17.2.3
+  image_picker: ^1.1.2
+  web_socket_channel: ^3.0.1
+  animated_text_kit: ^4.2.1
+
+  # 確保 collection 版本符合 flutter_test 的要求
+  collection: ^1.18.0
+  material_color_utilities: ^0.11.1
+  meta: ^1.15.0
+  string_scanner: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.9.2
+
+  # 更新間接開發依賴項
+  leak_tracker: ^10.0.5
+  leak_tracker_flutter_testing: ^3.0.5
+  stack_trace: ^1.11.1
+  test_api: ^0.7.2
+  vm_service: ^14.2.5
+
+flutter_icons:
+  ios: true
+  image_path: "/Users/huanglin/Desktop/care_system.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Brand.png
+  fonts:
+    - family: Iansui
+      fonts:
+        - asset: assets/fonts/Iansui-Regular.ttf
