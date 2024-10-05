@@ -15,7 +15,7 @@
 - **reset_password_page.dart**: 重設密碼頁面，用戶可重設自己的帳戶密碼。
 - **reset_botkey_page.dart**: 重設 Bot Key 頁面，用戶可更新 Bot Key。
 
-### 技術棧
+### 技術
 - **前端框架**: Flutter
 - **後端 API**: Flask 應用程式（[長者即時照護系統](https://github.com/Hank-Lin0729/ElderFallAlert_web/blob/main/README.md))
 - **資料庫**: Render PostgreSQL（後端管理）
